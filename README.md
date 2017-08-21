@@ -5,7 +5,9 @@ Rudimentary python script to flatten an xsd schema into a single document. Flatt
 ```pip install lxml```
 
 # usage
-```xsdflatten.py <schema_document_to_flatten> > flattened.xsd```
+```xsdflatten.py schema_to_flatten.xsd > flattened.xsd```
+
+The flattened schema is output to console. Use > to redirect it to a file of your choosing.
 
 # troubleshooting
 If you have issues after installing lxml on Mac, you might try resetting the PATH:
